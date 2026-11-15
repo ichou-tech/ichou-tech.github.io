@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": "lookout",
+      "title": "LookOut",
+      "meta": "Early prototype",
+      "summary": "LookOut is a multimodal tracing tool that turns a photo of an everyday object into a branching investigation of where it came from. Every statement is labelled as readable, checkable, inferred or a dead end, so the AI's certainty is visible rather than assumed. I use it to ask whether layered, explorable provenance makes people more curious, and more willing to verify what an AI tells them.",
+      "tags": [
+        "multimodal AI",
+        "provenance",
+        "trust"
+      ],
+      "cover": "lookout/cover.webp",
+      "size": "pic"
+    },
+    {
+      "id": "last-war",
+      "title": "LastWar",
+      "meta": "In progress · working build",
+      "summary": "LastWar is a card-swiping game in which six factions, each an independent AI agent, bring you dilemmas that no one wrote in advance. You answer left or right from a god's-eye view, trying to postpone the Third World War for as long as possible. It is an experiment in emergent narrative, where the story is negotiated between the player and the agents instead of being authored.",
+      "tags": [
+        "game",
+        "multi-agent",
+        "emergent narrative"
+      ]
+    },
+    {
+      "id": "dither-loupe",
+      "title": "Dither Loupe",
+      "meta": "Prototype",
+      "summary": "Dither Loupe is a browser magnifier that dithers whatever lies beneath it, live. The algorithm, colour depth and sampling can all be adjusted, each with a note on where the rounding error goes. It began as a toy and became a way to look at the poor image: what pictures lose, and gain, as they are compressed and passed around.",
+      "tags": [
+        "browser extension",
+        "dithering",
+        "poor image"
+      ],
+      "cover": "dither-loupe/cover.webp",
+      "size": "pic"
+    },
+    {
+      "id": "the-gleaner",
+      "title": "The Gleaner",
+      "meta": "In progress · working build",
+      "summary": "The Gleaner is a desktop web crawler presented as a small adventure game. You give a slime guide a link and a list of keywords; it leaves town, explores the dungeon and returns with the loot, sorted and summarised by a language model of your choice. The interface is fully skinnable, and I plan to open-source it so that anyone can share their own skin.",
+      "tags": [
+        "desktop app",
+        "crawler",
+        "LLM",
+        "skins"
+      ],
+      "cover": "the-gleaner/cover.webp",
+      "size": "pic"
+    },
+    {
+      "id": "voice-lesson-planner",
+      "title": "Voice Lesson Planner",
+      "meta": "On GitHub · Claude skill",
+      "summary": "Voice Lesson Planner is a Claude skill that turns language learning into a multi-session workflow. One session plans the course and tracks progress, mistakes and vocabulary; each day's lesson is then taught by a fresh voice session, so context never piles up. In my own use, this separation made the lessons noticeably more personal.",
+      "tags": [
+        "Claude skill",
+        "workflow",
+        "personalisation"
+      ]
+    },
+    {
+      "id": "little-monster",
+      "title": "Little Monster",
+      "meta": "On GitHub",
+      "summary": "Little Monster is a pixel-art desktop pet that doubles as a reminder and an alarm clock. It keeps recurring reminders, such as taking a break, drinking water or resting your eyes, and counts down to the next one from the corner of the screen. A small vibe-coded project, with pixel art I drew myself.",
+      "tags": [
+        "desktop pet",
+        "reminders",
+        "pixel art"
+      ],
+      "cover": "little-monster/cover.webp",
+      "size": "pic"
+    },
+    {
+      "id": "pangdans-adventure",
+      "title": "Pangdan's Adventure",
+      "meta": "On GitHub",
+      "summary": "Pangdan's Adventure is a short choice-driven game, written by hand as a single HTML file, with pixel art I drew myself. Made purely for fun.",
+      "tags": [
+        "game",
+        "HTML"
+      ],
+      "cover": "pangdans-adventure/cover.webp",
+      "size": "pic"
+    }
+  ],
+  "layout": "showcase"
+}

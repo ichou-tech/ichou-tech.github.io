@@ -1,0 +1,40 @@
+{
+  "timeline": true,
+  "posts": [
+    {
+      "id": "peeker",
+      "title": "Peeker",
+      "period": "Sep 2026 → now",
+      "meta": "Ongoing research",
+      "stamp": "Now",
+      "size": "wider",
+      "summary": "How does a machine come to know a physical image? A research-through-design project on what everyday scanners decide for us.",
+      "steps": [
+        "Where do digital images come from?",
+        "Reading around",
+        "Scanning slowly",
+        "Peeker v1",
+        "What didn't work",
+        "Prototyping the design space"
+      ],
+      "tags": [
+        "research through design",
+        "scanner",
+        "digitisation"
+      ],
+      "cover": "peeker/peeker-sketch.webp"
+    },
+    {
+      "id": "the-degenerative",
+      "title": "The Degenerative",
+      "period": "Oct 21–26, 2026",
+      "meta": "Media Lab · one-week study",
+      "summary": "A Raspberry Pi turns a Squeezebox into a video player that shows one frame every three seconds: a rich image slowed down into a poor one.",
+      "tags": [
+        "Raspberry Pi",
+        "poor image",
+        "hardware hack"
+      ]
+    }
+  ]
+}

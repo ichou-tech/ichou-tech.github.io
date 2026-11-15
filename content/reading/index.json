@@ -1,0 +1,101 @@
+{
+  "posts": [
+    {
+      "id": "entering-the-3d-printer",
+      "title": "Entering the 3D Printer: Negotiations of Imprecision in Making",
+      "date": "2026-10-22",
+      "meta": "DIS Pictorial",
+      "summary": "A 3D printer with a hand-driven axis turns imprecision into a negotiation between designer, code, machine and material.",
+      "tags": [
+        "digital fabrication",
+        "embodied making",
+        "imprecision"
+      ]
+    },
+    {
+      "id": "generative-agents",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "date": "2026-10-26",
+      "meta": "Park et al. · UIST 2023",
+      "summary": "LLM agents that remember, reflect and plan, living together in a small game-like town.",
+      "tags": [
+        "LLM agents",
+        "multi-agent",
+        "games"
+      ]
+    },
+    {
+      "id": "anatomy-of-an-ai-system",
+      "title": "Anatomy of an AI System",
+      "date": "2026-10-28",
+      "meta": "Crawford & Joler · in Incomputable Earth (Bloomsbury)",
+      "summary": "Behind one simple voice command to an Amazon Echo: a planetary system of extraction, labour and data.",
+      "tags": [
+        "media critique",
+        "AI",
+        "materiality"
+      ]
+    },
+    {
+      "id": "counterfunctional-digital-camera",
+      "title": "Some Variations on a Counterfunctional Digital Camera",
+      "date": "2026-11-02",
+      "meta": "Pierce & Paulos · DIS Pictorial 2014",
+      "summary": "Designing digital limitation: a set of cameras that deliberately do less.",
+      "tags": [
+        "counterfunctional design",
+        "photography",
+        "pictorial"
+      ]
+    },
+    {
+      "id": "vibrotactile-illustration-taxonomy",
+      "title": "How are Vibrotactile Experiences Visually Represented? A Taxonomy of Illustration Characteristics",
+      "date": "2026-11-08",
+      "meta": "Wittchen, Fruchard et al. · CHI 2026",
+      "summary": "A taxonomy of how papers draw vibrotactile experiences, and what those drawings leave out.",
+      "tags": [
+        "haptics",
+        "taxonomy",
+        "visual representation"
+      ]
+    },
+    {
+      "id": "beyond-charts-sketch-visualisation",
+      "title": "Beyond Charts: A Conceptual Framework for Sketch-based Data Visualisations",
+      "date": "2026-11-09",
+      "meta": "IHM 2025",
+      "summary": "Hand-drawn data visualisation is expressive but tedious; digital tools are efficient but narrow. Can we have both?",
+      "tags": [
+        "data visualisation",
+        "sketching",
+        "interaction substrates"
+      ]
+    },
+    {
+      "id": "wall-sense-and-extract",
+      "title": "Wall, An Eccentric Design Probe: Exploring and Exposing the Sense-and-Extract Paradigm",
+      "date": "2026-11-09",
+      "meta": "DIS Pictorial",
+      "summary": "A smart device that listens and writes what it hears on the wall, to make surveillant sensing visible.",
+      "tags": [
+        "research through design",
+        "surveillance",
+        "design probe"
+      ]
+    },
+    {
+      "id": "augmented-physics",
+      "title": "Augmented Physics: Creating Interactive and Embedded Physics Simulations from Static Textbook Diagrams",
+      "date": "2026-11-11",
+      "meta": "Gunturu et al. · UIST 2024",
+      "summary": "Turning static textbook diagrams into interactive simulations with computer vision and multimodal LLMs.",
+      "tags": [
+        "education",
+        "multimodal AI",
+        "authoring tools"
+      ]
+    }
+  ],
+  "recommendations": []
+}

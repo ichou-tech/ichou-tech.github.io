@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading Notes · Xinyi Chen</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌳</text></svg>">
+  <link rel="stylesheet" href="../css/style.css?v=1118">
+</head>
+<body data-module="reading" data-root="../">
+  <!-- 页眉（手写标题 + 名字 + 红线）和右下角 Back to HomePage 按钮由 js/common.js 自动加上 -->
+  <main class="ip-list">
+    <!-- 先放论文阅读笔记，后面接着放推荐文献（纸上有红色 Recommended 印章） -->
+    <ul class="papers" id="papers" aria-label="Reading Notes"></ul>
+  </main>
+  <script src="../js/sound.js?v=1118"></script>
+  <script src="../js/common.js?v=1118"></script>
+  <script src="../js/marked.min.js"></script>
+  <script src="../js/content.js?v=1118"></script>
+  <script>
+    Content.list("reading", "#papers", "note.html").then((d) => {
+      const el = document.querySelector("#papers");
+      if (d && d.recommendations) Content.cards(el, d.recommendations.map((r) => ({ stamp: "Recommended", ...r })), (r) => r.link || "#", el.children.length);
+    });
+  </script>
+</body>
+</html>

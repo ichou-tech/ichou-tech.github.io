@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bio & Contact · Xinyi Chen</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌳</text></svg>">
+  <link rel="stylesheet" href="../css/style.css?v=1118">
+</head>
+<body data-module="about" data-root="../">
+  <!-- 页眉（手写标题 + 名字 + 红线）和右下角 Back to HomePage 按钮由 js/common.js 自动加上 -->
+  <main class="ip-list">
+    <ul class="papers">
+      <!-- 第一张纸：头像 + 经历。换头像：替换 assets/avatar.jpg（正方形） -->
+      <li class="wide" style="--i:0"><section class="sheet paper" aria-label="Bio">
+        <div class="bio-head">
+          <img class="avatar" src="../assets/avatar.jpg" alt="Photo of Xinyi Chen">
+          <h3>Xinyi Chen<br>(IChou)</h3>
+        </div>
+        <div class="grow">
+          <h4>Experience</h4>
+          <ul class="list">
+            <li>M.A. Écologies des arts et des médias (EDAM), Université Paris 8</li>
+            <li>B.A. Arts Plastiques, Université Paris 1 Panthéon-Sorbonne</li>
+            <li>Psychology coursework, Université Paris Cité: Psychopathology, Clinical Psychology, Psychometrics, Social Psychology, Neurophysiology, History of Psychiatry &amp; The Psychologist as a Profession</li>
+            <li>Programming &amp; AI agent architecture training, AI Labs, AtlasThinkTank LLC</li>
+          </ul>
+        </div>
+      </section></li>
+      <!-- 第二张纸：More about me（内容待写） -->
+      <li class="widest" style="--i:1"><section class="sheet paper" aria-label="More about me">
+        <h3>More about me…</h3>
+        <div class="grow">
+          <p>I came to HCI through my interest in the relationship between humans and machines. Inspired by <a href="https://en.wikipedia.org/wiki/Gilbert_Simondon" target="_blank" rel="noopener">Gilbert Simondon</a>’s thinking on technical objects, I believe that the way we interact with them deeply shapes how we think and act. As a millennial, I grew up alongside technical objects, and growing up I became more and more aware of how strongly technology and the devices around us are changing the way we live and work. Today, with the rise of AI, we deal with technology more often than ever. Technical barriers are breaking down, and more and more people can build their own products, even without being professionals. To me, this is a moving era in which creativity is flourishing as never before, and at the same time the era in which creativity is most likely to become fixed and constrained.</p>
+          <p>That is why I believe the way humans and technology live together will become an ever more important question. My conviction is to take seriously the interaction details we take for granted, and to keep reflecting on the place of new technologies and on how people can use them. I work on playful forms of interaction and reflective design, and I keep drawing unexpected insights and new perspectives from art practice and games.</p>
+          <p>Honestly, my interests are really wide: I'm curious about everything. The projects I'm currently building and studying range across images, narrative, multi-agent systems, games and multimodal recognition. I'm also interested in media critique, the ecological philosophy of the Anthropocene and new materialism. Besides being an HCI researcher, I'm also an artist, working on narrative illustration, mineral pigment painting and zines.</p>
+        </div>
+      </section></li>
+      <!-- 第三张纸：技能点（像游戏里的角色面板）。
+           语言后面的 data-level 是等级（满级 5，可以写 4.5 这样的半格）；
+           其他技能是“已解锁”的道具格，加一个就多写一个 <span>。 -->
+      <li class="wider" style="--i:2"><section class="sheet paper skills" aria-label="Skills">
+        <h3>Skills</h3>
+        <div class="meta">character sheet</div>
+        <div class="grow">
+          <h4>Languages</h4>
+          <ul class="stats">
+            <li><span>Chinese</span><span class="bar" data-level="5"></span><b>native</b></li>
+            <li><span>French</span><span class="bar" data-level="4.5"></span><b>C1–C2</b></li>
+            <li><span>English</span><span class="bar" data-level="4"></span><b>B2–C1</b></li>
+          </ul>
+          <h4>Code</h4>
+          <div class="slots"><span>Python</span><span>JavaScript</span><span>HTML / CSS</span><span>p5.js / Processing</span><span>Raspberry Pi</span></div>
+          <h4>Tools</h4>
+          <div class="slots"><span>Photoshop</span><span>InDesign</span><span>Procreate</span><span>Figma</span><span>Blender</span><span>Twine</span></div>
+          <h4>Research</h4>
+          <div class="slots"><span>Prototyping</span><span>User research</span><span>Interviews</span><span>First-person RtD</span><span>Usability testing</span><span>Recherche-création</span></div>
+        </div>
+      </section></li>
+      <!-- 第四张纸：联系方式。把链接换成你自己的 -->
+      <li class="wide" style="--i:3"><section class="sheet paper" aria-label="Contact">
+        <h3>Contact</h3>
+        <div class="grow">
+          <ul class="contact">
+            <li><a href="mailto:chenyishu2024@gmail.com">chenyishu2024@gmail.com</a></li>
+            <li><a href="mailto:xinyi.chen16@etud.univ-paris8.fr">xinyi.chen16@etud.univ-paris8.fr</a></li>
+            <li><a href="https://github.com/chenyishu2024-stack" target="_blank" rel="noopener">GitHub ↗</a></li>
+            <li><a href="https://www.linkedin.com/in/ichou-xinyi-chen/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          </ul>
+          <h4>My art</h4>
+          <ul class="contact">
+            <li><a href="https://www.instagram.com/ichou_art/" target="_blank" rel="noopener">Instagram @ichou_art ↗</a><div class="meta">recent mineral-pigment paintings</div></li>
+            <li><a href="https://ichou-chen.art" target="_blank" rel="noopener">ichou-chen.art ↗</a><div class="meta">earlier art practice</div></li>
+          </ul>
+        </div>
+      </section></li>
+    </ul>
+  </main>
+  <script src="../js/sound.js?v=1118"></script>
+  <script src="../js/common.js?v=1118"></script>
+  <script>
+    // 技能点：把 data-level 画成 5 格的等级条；道具格悬停时晃一下、有提示音
+    document.querySelectorAll('.bar').forEach((b) => {
+      const v = parseFloat(b.dataset.level) || 0;
+      b.setAttribute('role', 'img'); b.setAttribute('aria-label', `level ${v} of 5`);
+      b.innerHTML = [1, 2, 3, 4, 5].map((n) => `<i class="${v >= n ? 'on' : v >= n - 0.5 ? 'half' : ''}"></i>`).join('');
+    });
+    document.querySelectorAll('.slots span, .stats li').forEach((el, i) => {
+      el.style.setProperty('--j', i);
+      el.addEventListener('pointerenter', () => { el.classList.remove('wobble'); void el.offsetWidth; el.classList.add('wobble'); Sound.blip(i); });
+      el.addEventListener('animationend', () => el.classList.remove('wobble'));
+    });
+  </script>
+
+</body>
+</html>
