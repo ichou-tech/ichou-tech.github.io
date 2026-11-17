@@ -2,16 +2,17 @@
   "posts": [
     {
       "id": "lookout",
-      "title": "LookOut",
+      "title": "Lookout: Letting Everyday Objects Tell Their Own Stories through Branching Exploration with Multimodal LLMs",
       "meta": "Early prototype",
       "summary": "LookOut is a multimodal tracing tool that turns a photo of an everyday object into a branching investigation of where it came from. Every statement is labelled as readable, checkable, inferred or a dead end, so the AI's certainty is visible rather than assumed. I use it to ask whether layered, explorable provenance makes people more curious, and more willing to verify what an AI tells them.",
       "tags": [
         "multimodal AI",
-        "provenance",
-        "trust"
+        "more-than-human design",
+        "Non-linear LLM"
       ],
       "cover": "lookout/cover.webp",
-      "size": "pic"
+      "size": "pic",
+      "href": "post.html?id=lookout"
     },
     {
       "id": "last-war",

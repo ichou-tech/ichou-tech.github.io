@@ -1,3 +1,8 @@
 {
-  "posts": []
+  "posts": [
+    { "id": "attention", 
+      "title": "Attention is all you need, and attention is all you've lost", 
+      "date": "2026-11-11", "summary": "We're talking to AI in a strange way, aren't we? In this essay, I want to talk about where all our attention has gone.", 
+      "tags": ["Humain AI Interacation"] }
+  ]
 }
