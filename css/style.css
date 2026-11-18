@@ -306,3 +306,8 @@ a.sheet { cursor: pointer; }
   .papers.timeline > li, .papers.timeline > li.wide, .papers.timeline > li.wider { aspect-ratio: auto; min-width: 0; padding-bottom: 40px; }
   .papers.timeline .sheet .cover { max-height: 180px; }
 }
+
+/* 博客文章下面的评论区（js/comments.js） */
+.doc .comments { margin-top: 2.6em; padding-top: 1.2em; border-top: 2px dashed rgba(59, 51, 44, .22); }
+.doc .comments h2 { margin: 0 0 .6em; }
+.doc .comments .giscus, .doc .comments .giscus-frame { width: 100%; }

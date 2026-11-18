@@ -92,6 +92,7 @@
           const s = im.getAttribute('src');
           if (s && !/^(https?:|\/|data:)/.test(s)) im.src = `${root}content/${type}/${s}`;
         });
+        return id;   // 成功时返回文章 id（博客用它挂评论区）
       } catch (e) { fail(el, e); }
     },
   };
